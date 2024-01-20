@@ -9,6 +9,9 @@ async function fetchUrls(urls){
     }
 }
 
+//  Sử dụng vòng lặp thực hiện yêu cầu HTTP
+//  Sử dụng await yêu cầu trước phải hoàn thành thì mới tới yêu cầu sau  
+
 //2.
 async function fetchUrlsParallel(urls){
     const results = await Promise.all(
@@ -18,3 +21,6 @@ async function fetchUrlsParallel(urls){
     );
 }
 return results;
+
+// Sử dụng Promise.all và map để thực hiện các yêu cầu HTTP 
+// Cải thiện hiệu suất vì không cần phải chờ như sử dụng await
