@@ -1,0 +1,112 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Action"
+    },
+    {
+      "id": 2,
+      "name": "Adventure"
+    },
+    {
+      "id": 3,
+      "name": "Horror"
+    },
+    {
+      "id": 4,
+      "name": "Simulation"
+    },
+    {
+      "id": 5,
+      "name": "Strategy"
+    },
+    {
+      "id": 6,
+      "name": "RPG"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "The Evil Within",
+      "cate_id": 3,
+      "price": "500.000 Vnđ",
+      "detail": "The Evil Inside là một trò chơi điện tử kinh dị sinh tồn được phát triển bởi Tango Gameworks và được phát hành bởi Bethesda Softworks. Trò chơi được đạo diễn bởi Shinji Mikami, người sáng tạo series Resident Evil và được phát hành trên toàn thế giới vào tháng 10 năm 2014 cho PlayStation 3, PlayStation 4, Windows, Xbox 360 và Xbox One.",
+      "image": "spso1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Scorn",
+      "cate_id": 1,
+      "price": "360.000 Vnđ",
+      "detail": "Scorn là một trò chơi phiêu lưu kinh dị sinh tồn được phát triển bởi nhà phát triển Ebb Software người Serbia cho Microsoft Windows và Xbox Series X/S. Trò chơi được lấy cảm hứng từ tác phẩm của các nghệ sĩ thị giác H. R. Giger và Zdzisław Beksiński.",
+      "image": "spso2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Five Night At Freddy",
+      "cate_id": 2,
+      "price": "200.000 Vnđ",
+      "detail": "Embark on a thrilling journey",
+      "image": "spso3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Cỏ Máu",
+      "cate_id": 4,
+      "price": "420.000",
+      "detail": "Khám phá một thế giới độc ác với môi trường dựa trên văn hóa Việt Nam và cốt truyện lấy cảm hứng từ thần thoại và văn hóa dân gian Việt Nam.",
+      "image": "spso4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Thần Trùng (The Death)",
+      "cate_id": 5,
+      "price": "490.000 Vnđ",
+      "detail": "Thần Trùng (The Death) là tựa game kinh dị được phát triển bởi DUT Studio. Nếu bạn chưa biết thì DUT là team của Dũng CT, một trong những streamer game nổi tiếng với đam mê về những tựa game kinh dị, khám phá mang nặng tính cốt truyện.",
+      "image": "spso5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Little Nightmares",
+      "cate_id": 6,
+      "price": "270.000 Vnđ",
+      "detail": "Little Nightmares là một trò chơi phiêu lưu kinh dị nền tảng giải đố được phát triển bởi Tarsier Studios và được Bandai Namco Entertainment phát hành cho PlayStation 4, Windows và Xbox One, phát hành vào năm 2017.",
+      "image": "spso6.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customer_name": "John Doe",
+      "customer_address": "123 Main St",
+      "customer_email": "john.doe@example.com",
+      "customer_phone_number": "555-1234",
+      "created_date": "2022-01-01",
+      "status": "Pending"
+    },
+    {
+      "id": 2,
+      "customer_name": "Jane Smith",
+      "customer_address": "456 Oak St",
+      "customer_email": "jane.smith@example.com",
+      "customer_phone_number": "555-5678",
+      "created_date": "2022-01-02",
+      "status": "Shipped"
+    }
+  ],
+  "order_details": [
+    {
+      "order_id": 1,
+      "product_id": 2,
+      "quantity": 2,
+      "unit_price": 39.99
+    },
+    {
+      "order_id": 2,
+      "product_id": 4,
+      "quantity": 1,
+      "unit_price": 34.99
+    }
+  ]
+}
