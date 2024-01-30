@@ -57,17 +57,17 @@
 // console.log(teacherUser.teaching());
 
 
-console.log("2");
+// console.log("2");
 
-setTimeout(chao, 5000);
+// setTimeout(chao, 5000);
 
-function chao(){
-    console.log("Chào cô  em bắc kì nho nhỏ");
-}
+// function chao(){
+//     console.log("Chào cô  em bắc kì nho nhỏ");
+// }
 
-setTimeout(function(){
-    console.log("Hi");
-    setTimeout(function(){
-        console.log("Ba");
-    }, 5000)
-}, 5000)
+// setTimeout(function(){
+//     console.log("Hi");
+//     setTimeout(function(){
+//         console.log("Ba");
+//     }, 5000)
+// }, 5000)
