@@ -1,0 +1,42 @@
+{
+  "comment": [
+      {
+          "id": 1,
+          "name": "An",
+          "user": "AnDZ",
+          "email": "anlqpc06965@fpt.edu.vn"
+      },
+      {
+          "id": 2,
+          "name": "AnQuoc",
+          "user": "AnMayChem",
+          "email": "anlqpc06965@fpt.edu.vn"
+      },
+      {
+          "id": 3,
+          "name": "AnLe",
+          "user": "TenLaAn",
+          "email": "anlqpc06965@fpt.edu.vn"
+      }
+  ],
+  "post": [
+      {
+          "id": 1,
+          "name": "AnKia",
+          "user": "Anhehe",
+          "email": "anlqpc06965@fpt.edu.vn"
+      },
+      {
+          "id": 2,
+          "name": "AnPC06965",
+          "user": "Zennos",
+          "email": "anlqpc06965@fpt.edu.vn"
+      },
+      {
+          "id": 3,
+          "name": "Zennos",
+          "user": "AnHotBoy",
+          "email": "anlqpc06965@fpt.edu.vn"
+      }
+  ]
+}
